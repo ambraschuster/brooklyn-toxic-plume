@@ -39,20 +39,21 @@ h1 {
 
 /* Medium heading size with gray color for section headers */
 h3 {
-    font-size: 1.75em;
+    font-size: 1.00em;
     color: gray;
+    text-align: left
 }
 
 /* Small heading style for individual tip titles - uppercase and centered */
 h4 {
     text-transform: uppercase;
-    font-size: 1.3em;
+    font-size: 1.00em;
     text-align: center;
 }
-
+.byline {text-align: left}
 /* Center align all h3 section headers */
 h3 {
-    text-align: center;
+    text-align: left;
 }
 
 /* Set readable line spacing and font size for body text and captions */
@@ -133,7 +134,8 @@ figure {
     .icon-container {
         /* use text-align center to center the inline-block elements */
         text-align: center; /* Centers the inline-block columns within the container */
-        max-width: 900px; /* Matches width of other content */
+        max-width: 1200px; /* Matches width of other content */
+        /*org width: 900px*/
         margin: 0 auto; /* Centers the entire container */
     }
 
@@ -141,7 +143,8 @@ figure {
     .graphic {
         /* Use inline-block for side-by-side layout */
         display: inline-block; /* Allows elements to sit side by side */
-        width: 25%; /* Each column takes 25% of container width */
+        width: 25%; /* Each column takes 25% of container width */ 
+        /*org width: 25%*/
         vertical-align: top; /* Aligns tops of columns (not baselines) */
         margin: 0 2%; /* Add some spacing between columns */
         text-align: left; /* Reset text alignment for content inside (overrides center from parent) */
@@ -160,6 +163,7 @@ figure {
 @media(min-width: 900px) {
     /* Any adjustments for desktop and larger go here.
     Note these styles will be applied to anything 729px or larger -- so desktop */
+    /* original width: 900px*/
     
     /* Keep main text containers at reasonable width on very large screens */
     .container {
@@ -168,6 +172,6 @@ figure {
 
     /* Limit figure width slightly less than text for visual variety */
     figure {
-        max-width: 700px;
+        max-width: 700px;/*og width 700px*/
     }
 }
