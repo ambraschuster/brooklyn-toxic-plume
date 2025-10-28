@@ -67,7 +67,8 @@ h3 {
 
 h5 {font-size:1.2em; 
 text-align: center;
-background-color: rgb(67, 188, 148);}
+background-color: rgb(67, 188, 148);
+margin-bottom:0.2cm;}
 /* Set readable line spacing and font size for body text and captions */
 figcaption,
 p {
