@@ -25,6 +25,7 @@ body,
 html {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
+    font-family: Arial;
 }
 
 /* Make all images responsive - they scale down to fit their container */
@@ -34,28 +35,39 @@ img {
 
 /* Large heading size for main title */
 h1 {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 /* Medium heading size with gray color for section headers */
 h3 {
-    font-size: 1.00em;
-    color: gray;
-    text-align: left
+    font-size: 1.2em;
+    text-align: left;
+    font-style: italic;
 }
 
 /* Small heading style for individual tip titles - uppercase and centered */
 h4 {
-    text-transform: uppercase;
     font-size: 1.00em;
-    text-align: center;
+    text-align: left;
+    font-style: italic;
+    color: gray;
+    margin-top:0.2cm;
+    margin-bottom: 0.0cm; 
 }
-.byline {text-align: left}
+.byline {text-align: left; 
+margin-bottom: 0.1cm;
+font-weight: normal; 
+text-decoration: underline;
+text-decoration-color: rgb(67, 188, 148);
+}
 /* Center align all h3 section headers */
 h3 {
     text-align: left;
 }
 
+h5 {font-size:1.2em; 
+text-align: center;
+background-color: rgb(67, 188, 148);}
 /* Set readable line spacing and font size for body text and captions */
 figcaption,
 p {
@@ -92,7 +104,8 @@ figure {
 .head-photo {
     font-size: 1em;
     color: gray;
-    margin-left: 15px;
+    margin-left: 10px;
+    font-style: italic;
 }
 
 /* Style images within icon containers - block display, limited size, centered */
@@ -107,6 +120,8 @@ figure {
     margin: auto;
 }
 
+
+
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
 *********************************************************************/
@@ -117,6 +132,7 @@ figure {
     /* Make intro paragraph very wide for better readability on large screens */
     p.intro {
         max-width: 95%;
+        text-align: left; 
     }
 
     /* Limit main content width and center it on large screens */
